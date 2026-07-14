@@ -1,0 +1,14 @@
+credentials.json
+keuangan.db
+*.pyc
+__pycache__/
+.env
+bot_backup.py
+patch*.py
+reset_sheet.py
+fix_sheet.py
+.DS_Store
+.gitignoregit
+bot-keuangan/
+credentials.json
+credentials.json
