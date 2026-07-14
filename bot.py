@@ -484,7 +484,7 @@ if __name__ == "__main__":
         init_sheet(sh)
         print(f"✅ Sheet siap dengan tab: {', '.join(set(PENGGUNA.values()))}")
     except Exception as e:
-        print(f"⚠️ Gagal inisialisasi sheet: {e}")
+        import traceback; traceback.print_exc(); print(f"⚠️ Gagal inisialisasi sheet: {e!r}")
 
     app = ApplicationBuilder().token(TOKEN).build()
 
